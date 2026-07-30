@@ -78,7 +78,7 @@ If you encounter any issues or crashes, follow these steps to capture accurate e
 
 - [ ] **Automatic Character Database population** — Automatic asset folder scanning (`res://`) at startup to eliminate manual path hardcoding (75% immunity to future game updates).
 - [ ] **Standalone CheatSDK Release** — Extracting the modular menu framework (accordions, checkboxes, automatic layouts) as a separate SDK for other Godot 4 modders.
-- [ ] **Auto-Update Checker** — Implementation of a semi-automatic update downloader hooking directly into the GitHub Releases API.
+- [X] **Auto-Update Checker** — Implementation of a semi-automatic update downloader hooking directly into the GitHub Releases API.
 
 ---
 
