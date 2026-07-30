@@ -32,7 +32,7 @@ The mod is currently available on **Windows**, but I plan to release it for othe
 
 ---
 
-## 📊 Inventory & Save Management Matrix
+## 📊 Inventory & Save Management
 
 | Tab | Feature | Description | Status |
 | :--- | :--- | :--- | :--- |
