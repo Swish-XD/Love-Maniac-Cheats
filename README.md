@@ -1,6 +1,8 @@
-# 🎭 LoveManiac Cheats & SDK
+# 💘 LoveManiac Cheats & SDK
 
-![Header Image](https://placehold.co)
+<p align="center">
+  <img src="https://i.ibb.co/tT0CbnL5/image.png" width="100%" alt="LoveManiac Cheats SDK Header">
+</p>
 
 Adds a convenient cheat menu with many features to Love Maniac.
 
