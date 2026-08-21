@@ -8,6 +8,7 @@
 >
 > ### ABANDONED
 > I'm fucking sick of making mods and writing in GDScript — it's a shitty language. C# is better.
+> I’m leaving the source code for version 2.2.1 here for you, including the CheatSDK — help yourselves; I’m done.
 
 Adds a convenient cheat menu with many features to Love Maniac.
 
