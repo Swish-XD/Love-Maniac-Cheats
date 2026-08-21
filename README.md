@@ -7,7 +7,7 @@
 Adds a convenient cheat menu with many features to Love Maniac.
 
 ![Godot Version](https://img.shields.io/badge/Godot_version-4.5-blue)
-![Game Version](https://img.shields.io/badge/Supported_Love_Maniac_Ver-0.3.5_EA4-red)
+![Game Version](https://img.shields.io/badge/Supported_Love_Maniac_Ver-0.3.5_2-red)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ---
 
