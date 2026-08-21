@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd6s35otqbo6t"]
+
+[ext_resource type="Script" path="res://loadot/mods/LoveManiacCheats/CheatSDK/Prefabs/Elements/InputField/CheatInputField.gd" id="1_a6ilp"]
+
+[node name="CheatInputField" type="PanelContainer"]
+mouse_filter = 2
+theme_type_variation = &"CheatElementPanel"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"CheatInputFieldLabel"
+text = "Input field: "
+
+[node name="LineEdit" type="LineEdit" parent="HBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_behavior_recursive = 2
+theme_type_variation = &"CheatInputFieldLineEdit"
+placeholder_text = "String"
+script = ExtResource("1_a6ilp")

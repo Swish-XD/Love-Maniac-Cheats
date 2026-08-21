@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://c7lnf54q82y2w"]
+
+[node name="CheatLabel" type="Label"]
+size_flags_horizontal = 3
+text = "text"

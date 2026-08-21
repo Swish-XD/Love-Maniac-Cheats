@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwge2pbgw10fs"]
+
+[ext_resource type="Script" path="res://loadot/mods/LoveManiacCheats/CheatSDK/Prefabs/Elements/Checkbox/CheatCheckbox.gd" id="2_x83ep"]
+
+[node name="CheatCheckbox" type="CheckBox"]
+theme_type_variation = &"CheatCheckbox"
+text = "Test"
+script = ExtResource("2_x83ep")

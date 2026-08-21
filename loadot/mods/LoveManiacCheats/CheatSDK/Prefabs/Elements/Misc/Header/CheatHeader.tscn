@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://clr1y1fqjol06"]
+
+[node name="Header" type="RichTextLabel"]
+custom_minimum_size = Vector2(0, 15)
+offset_right = 33.0
+offset_bottom = 15.0
+size_flags_horizontal = 3
+size_flags_vertical = 4
+bbcode_enabled = true
+text = "text"
+scroll_active = false
+vertical_alignment = 1

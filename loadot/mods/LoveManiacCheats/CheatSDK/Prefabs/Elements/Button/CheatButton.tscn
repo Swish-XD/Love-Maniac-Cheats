@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://brysd0vaxc40e"]
+
+[ext_resource type="Script" path="res://loadot/mods/LoveManiacCheats/CheatSDK/Prefabs/Elements/Button/CheatButton.gd" id="1_h0n3p"]
+
+[node name="CheatButton" type="Button"]
+focus_mode = 0
+theme_type_variation = &"CheatButton"
+text = "Hello, world"
+alignment = 0
+script = ExtResource("1_h0n3p")

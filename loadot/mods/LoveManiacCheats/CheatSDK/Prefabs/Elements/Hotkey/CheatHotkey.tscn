@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://o80gntnvdwfx"]
+
+[ext_resource type="Theme" uid="uid://d0kr6bpd32njh" path="res://loadot/mods/LoveManiacCheats/CheatSDK/Themes/base.tres" id="1_57vg4"]
+[ext_resource type="Script" path="res://loadot/mods/LoveManiacCheats/CheatSDK/Prefabs/Elements/Hotkey/CheatHotkeyButton.gd" id="2_0rmde"]
+
+[node name="CheatHotkey" type="PanelContainer"]
+theme_type_variation = &"CheatElementPanel"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme = ExtResource("1_57vg4")
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_57vg4")
+text = "Hotkey: "
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("1_57vg4")
+theme_type_variation = &"CheatHotkeyButton"
+text = "K"
+script = ExtResource("2_0rmde")

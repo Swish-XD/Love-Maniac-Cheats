@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dj6ag7sheih2g"]
+
+[node name="CheatColorPicker" type="PanelContainer"]
+theme_type_variation = &"CheatElementPanel"
+
+[node name="Container" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Container"]
+layout_mode = 2
+theme_type_variation = &"CheatColorPickerLabel"
+text = "Test:"
+
+[node name="ColorPickerButton" type="ColorPickerButton" parent="Container"]
+clip_contents = true
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+size_flags_horizontal = 3
+color = Color(1, 1, 1, 1)

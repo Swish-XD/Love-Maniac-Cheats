@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://uyqsei8uvc1p"]
+
+[ext_resource type="Theme" uid="uid://d0kr6bpd32njh" path="res://loadot/mods/LoveManiacCheats/CheatSDK/Themes/base.tres" id="1_dc1rk"]
+
+[node name="CheatDropdown" type="PanelContainer"]
+theme_type_variation = &"CheatElementPanel"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme = ExtResource("1_dc1rk")
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_dc1rk")
+text = "Dropdown"
+
+[node name="OptionButton" type="OptionButton" parent="HBoxContainer"]
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+focus_mode = 0
+theme = ExtResource("1_dc1rk")
+theme_type_variation = &"CheatDropdownOptionButton"
+fit_to_longest_item = false

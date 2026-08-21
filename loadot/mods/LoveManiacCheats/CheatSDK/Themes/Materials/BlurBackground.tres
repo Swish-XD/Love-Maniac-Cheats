@@ -1,0 +1,23 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://ivkwe12i4cn4"]
+
+[ext_resource type="Shader" uid="uid://bk3stpnppqsl6" path="res://loadot/mods/LoveManiacCheats/CheatSDK/Prefabs/CheatWindow/cheatsdk-blur.gdshader" id="1_rjanh"]
+
+[resource]
+shader = ExtResource("1_rjanh")
+shader_parameter/enable_blur = true
+shader_parameter/blur_amount = 4.0
+shader_parameter/enable_aberration = true
+shader_parameter/aberration_amount = 0.005
+shader_parameter/enable_dithering = false
+shader_parameter/dither_color_steps = 16.0
+shader_parameter/dither_size = 2.0
+shader_parameter/enable_scanlines = false
+shader_parameter/scanline_opacity = 0.15
+shader_parameter/enable_mouse_effect = true
+shader_parameter/mouse_position = Vector2(0.5, 0.5)
+shader_parameter/cursor_effect_radius = 0.08
+shader_parameter/cursor_aberration_boost = 0.02
+shader_parameter/cursor_blur_boost = 1.0
+shader_parameter/enable_zoom = true
+shader_parameter/base_window_zoom = 1.1
+shader_parameter/cursor_zoom_boost = 0.5

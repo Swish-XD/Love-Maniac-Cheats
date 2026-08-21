@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://o80gntnvdwfx"]
+
+[ext_resource type="Theme" uid="uid://da23pmsfen07j" path="res://loadot/mods/CheatSDK-Mod/CheatSDK/Themes/base.tres" id="1_57vg4"]
+[ext_resource type="Script" uid="uid://dqn41a1e6o2w4" path="res://loadot/mods/CheatSDK-Mod/CheatSDK/Prefabs/Elements/Hotkey/CheatHotkeyButton.gd" id="2_0rmde"]
+
+[node name="CheatHotkey" type="PanelContainer"]
+theme = ExtResource("1_57vg4")
+theme_type_variation = &"CheatElementPanel"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Hotkey: "
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"CheatHotkeyButton"
+text = "K"
+script = ExtResource("2_0rmde")

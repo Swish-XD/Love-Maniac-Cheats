@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://b1vgcgjk2gtk0"]
+
+[node name="CheatSlider" type="PanelContainer"]
+theme_type_variation = &"CheatElementPanel"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "Hello, world: "
+
+[node name="SliderContainer" type="HBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="MinValue" type="Label" parent="HBoxContainer/SliderContainer"]
+layout_mode = 2
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="HSlider" type="HSlider" parent="HBoxContainer/SliderContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+value = 50.0
+
+[node name="MaxValue" type="Label" parent="HBoxContainer/SliderContainer"]
+layout_mode = 2
+text = "5"
+vertical_alignment = 1
