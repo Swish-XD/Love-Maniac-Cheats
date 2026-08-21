@@ -4,8 +4,9 @@
   <img src="https://i.ibb.co/tT0CbnL5/image.png" width="100%" alt="LoveManiac Cheats SDK Header">
 </p>
 
-> [!ABANDONED]
-> 
+> [!CAUTION]
+>
+> ### ABANDONED
 > I'm fucking sick of making mods and writing in GDScript — it's a shitty language. C# is better.
 
 Adds a convenient cheat menu with many features to Love Maniac.
